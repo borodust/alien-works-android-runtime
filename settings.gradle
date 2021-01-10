@@ -1,0 +1,2 @@
+include ':alien-works-android'
+rootProject.name = "AlienWorksAndroid"

@@ -1,0 +1,6 @@
+[submodule "alien-works-android/jni/claw-sdl"]
+	path = alien-works-android/jni/claw-sdl
+	url = https://github.com/borodust/claw-sdl.git
+[submodule "alien-works-android/ecl/ecl"]
+	path = alien-works-android/ecl/ecl
+	url = https://gitlab.com/borodust/ecl.git
