@@ -57,7 +57,6 @@ clean_ecl
             --without-fpe \
             --with-bytecmp \
             --with-asdf \
-            --with-sse \
             --with-cross-config=$ECL_DIR/src/util/$CROSS_CONFIG
 make
 make install

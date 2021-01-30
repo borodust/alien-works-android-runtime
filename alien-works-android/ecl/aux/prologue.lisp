@@ -1,8 +1,9 @@
 (cl:in-package :cl-user)
 
 (eval-when (:load-toplevel :compile-toplevel :execute)
-  (setf *features* (list* :c/c++
-                          (nset-difference *features* '(:dlopen)))
+  (setf *features* (list* :iffi-ephemeral-metadata :iffi-skip-documentation
+                          :c/c++
+                          (nset-difference *features* '(:c/c++ :dlopen :dffi)))
         si::*keep-documentation* nil
         si::*documentation-pool* nil))
 

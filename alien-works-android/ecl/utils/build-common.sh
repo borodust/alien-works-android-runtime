@@ -12,7 +12,8 @@ clean_ecl() {
 
 TARGET_ARCH=aarch64
 NDK=
-ANDROID_API=21
+ANDROID_API=23
+BUILD_DIR=
 
 REST_ARGS=
 while [[ $# -gt 0 ]]
@@ -27,6 +28,11 @@ case $key in
         ;;
     --ndk)
         NDK="$2"
+        shift
+        shift
+        ;;
+    -d)
+        BUILD_DIR="$2"
         shift
         shift
         ;;

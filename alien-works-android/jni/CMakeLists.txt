@@ -6,8 +6,6 @@ project(ALIEN_WORKS_ANDROID)
 include(AndroidNdkModules)
 android_ndk_import_module_cpufeatures()
 
-add_subdirectory(claw-sdl/src/lib/sdl)
-
 #
 # main
 #

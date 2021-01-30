@@ -10,7 +10,6 @@ clean_ecl
             --prefix=$HOST_ECL_DIR \
             --disable-c99complex \
             --disable-manual \
-            --without-dffi \
             --without-fpe \
             --with-cmp \
             --with-bytecmp \
